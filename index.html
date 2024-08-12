@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Landing Page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="https://cdn-icons-png.flaticon.com/128/1828/1828231.png" height="30" width="30" class="mr-2"
+            alt="Logo">
+        <a class="navbar-brand" href="index.html">XCoders</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#expo">Explore</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Services</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#services">Courses</a>
+                        <a class="dropdown-item" href="#services">Products</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 rounded" width="100px" type="text" placeholder="Search">
+                <button class="btn btn-outline-primary my-2 my-sm-0 rounded" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron-container">
+        <video src="853919-hd_1920_1080_25fps.mp4" autoplay muted></video>
+        <div class="container jumbotron-content">
+            <h1 class="display-3"><strong>Trusted by 15M+ Coders</strong></h1>
+            <p class="lead">Wanna know why we're the best when it comes to Code & Tech?</p>
+            <hr class="my-2">
+            <p class="lead"><b><u>Try and Join our Coding Hub for Free!</u></b></p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg rounded-pill" href="#expo" role="button">Know more <img
+                        src="https://cdn-icons-png.flaticon.com/128/8213/8213476.png" height="24" width="24" alt=""></a>
+            </p>
+        </div>
+        <div class="jumbotron-image d-none d-xl-block">
+            <img src="Programming-amico.png" height="300px" width="300px" alt="">
+        </div>
+    </div>
+
+    <!-- Slides -->
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h1 class="featurette-heading text-light">Trying to Upskill your career, <span class="text-primary">Learn
+                    from the Best</span></h1>
+            <p class="lead text-light">Our courses are crafted by industry experts who live and breathe code. Get
+                hands-on experience with real-world projects and elevate your coding skills to the next level.</p>
+        </div>
+        <div class="col-md-5">
+            <video src="https://videos.pexels.com/video-files/2278095/2278095-sd_640_360_30fps.mp4" height="700px"
+                width="700px" autoplay loop muted
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded"></video>
+        </div>
+    </div>
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h1 class="featurette-heading text-light">No breaks between learning, <span class="text-primary">Flexible
+                    Learning, Anywhere, Anytime</span></h1>
+            <p class="lead text-light">Access your courses and projects from any device, anywhere in the world. Our
+                platform is optimized for both desktop and mobile, so learning fits into your schedule.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <video src="https://videos.pexels.com/video-files/2516159/2516159-sd_640_360_24fps.mp4" height="700px"
+                width="700px" autoplay loop muted
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded"></video>
+        </div>
+    </div>
+
+    <!-- Features -->
+    <div class="container text-light px-4 py-4" id="featured-3">
+        <h2 class="pb-2 border-bottom" id="expo">What We Offer</h2>
+        <div class="row g-4 row-cols-1 row-cols-lg-3">
+            <div class="feature col mb-4">
+                <div
+                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <img src="https://cdn-icons-png.flaticon.com/256/10984/10984294.png" class="bi" width="80px"
+                        height="80px">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Expert-Led Courses</h3>
+                <p> Learn from industry leaders with our expertly designed courses. Our curriculum is tailored to
+                    provide you with the most up-to-date knowledge and skills.</p>
+                <a href="#" class="icon-link" data-bs-toggle="tooltip" title="Trusted by 15M+ students">
+                    Explore Courses
+                    <img src="https://cdn-icons-png.flaticon.com/128/8050/8050813.png" height="20px" width="20px"
+                        alt="">
+                </a>
+            </div>
+            <div class="feature col mb-4">
+                <div
+                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <img src="https://cdn-icons-png.flaticon.com/256/11199/11199579.png" class="bi" width="80px"
+                        height="80px">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Collaborative Learning</h3>
+                <p> Join live coding sessions and collaborate with peers to solve real-world problems. Experience the
+                    power of learning together in a dynamic environment.</p>
+                <a href="#" class="icon-link" data-bs-toggle="tooltip" title="Get a free trial">
+                    Join a Session
+                    <img src="https://cdn-icons-png.flaticon.com/128/8050/8050813.png" height="20px" width="20px"
+                        alt="">
+                </a>
+            </div>
+            <div class="feature col">
+                <div
+                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <img src="https://cdn-icons-png.flaticon.com/256/11946/11946368.png" class="bi" width="80px"
+                        height="80px">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Certification</h3>
+                <p> Earn certifications that are recognized by top tech companies. Boost your career prospects with
+                    credentials that showcase your expertise.</p>
+                <a href="#" class="icon-link" data-bs-toggle="tooltip" title="Upskill your resume">
+                    Get Certified
+                    <img src="https://cdn-icons-png.flaticon.com/128/8050/8050813.png" height="20px" width="20px"
+                        alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="border-bottom"></div>
+
+    <!-- Courses Heading -->
+    <section class="text-center text-light" id="services">
+        <div class="row">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <img src="https://cdn-icons-png.flaticon.com/256/11471/11471274.png"
+                    class=" mb-4 img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                    alt="">
+                <h1 class="fw-light">Master the <span class="text-primary">Art of Coding</span> with Our <span
+                        class="text-primary">Courses & Services</span></h1>
+                <p class="lead text-body-secondary">Unlock your potential with XCoders' comprehensive courses and
+                    tailored services. Whether you're just starting out or looking to advance your skills, our
+                    expert-led courses and personalized services are designed to guide you every step of the way. Join a
+                    global community of learners and take your coding journey to the next level.</p>
+                <p>
+                    <a href="#" class="btn btn-lg btn-primary my-2 mx-2">Explore Courses</a>
+                    <a href="#" class="btn btn-lg btn-secondary my-2 mx-2">Discover Services</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- courses cards -->
+    <div class="album bg-body-tertiary">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col d-flex mb-5">
+                    <div class="card shadow-sm flex-fill">
+                        <img class="bd-placeholder-img card-img-top"
+                            src="https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            width="100%" height="225" aria-label="Placeholder: Thumbnail"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <strong class="d-inline-block mb-2 text-success">Courses</strong>
+                            <h5 class="card-title">Beginner Coding Bootcamp</h5>
+                            <p class="card-text">Start your coding journey with our beginner-friendly bootcamp. Learn
+                                the fundamentals of programming with hands-on projects and step-by-step guidance from
+                                expert instructors.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <a href="" class="stretched-link">Know more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex mb-5">
+                    <div class="card shadow-sm flex-fill">
+                        <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <strong class="d-inline-block mb-2 text-success">Courses</strong>
+                            <h5 class="card-title">Advanced Web Development</h5>
+                            <p class="card-text">Elevate your skills with our advanced web development course. Dive deep
+                                into the latest frameworks and tools, and build complex, responsive websites with
+                                confidence in no time.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <a href="" class="stretched-link">Know more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col mb-5 d-flex">
+                    <div class="card shadow-sm flex-fill">
+                        <img src="https://images.pexels.com/photos/6325984/pexels-photo-6325984.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <strong class="d-inline-block mb-2 text-success">Services</strong>
+                            <h5 class="card-title">One-on-One Mentorship</h5>
+                            <p class="card-text">Get personalized guidance with our one-on-one mentorship service. Our
+                                experienced mentors will help you overcome challenges, accelerate your learning, and
+                                achieve your goals.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <a href="" class="stretched-link">Know more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-5 d-flex">
+                    <div class="card shadow-sm flex-fill">
+                        <img src="https://images.pexels.com/photos/5699418/pexels-photo-5699418.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <strong class="d-inline-block mb-2 text-success">Services</strong>
+                            <h5 class="card-title">Custom Coding Solutions</h5>
+                            <p class="card-text">Need a specific solution or ideas for your project? Our team of experts
+                                provides custom coding services tailored to your needs, ensuring your project is a
+                                success from start to finish.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <a href="" class="stretched-link">Know more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="pb-2 border-bottom"></div>
+
+    <!-- About Us -->
+    <div class="container my-5 text-light" id="about">
+        <h1><u>About <span class="text-primary">XCoders</span></u></h1>
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Welcome to<span class="text-body-secondary text-primary">
+                        XCoders</span></h2>
+                <p class="lead">At XCoders, we believe that coding is more than just a skill—it's a way to shape the
+                    future. With over 15 million coders in our global community, XCoders has become a trusted hub for
+                    learning, collaboration, and innovation. Whether you're a beginner looking to start your journey or
+                    an experienced coder aiming to refine your expertise, we're here to guide you every step of the way.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img src="https://images.pexels.com/photos/7374/startup-photos.jpg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" class="img-fluid mx-auto" width="500" height="500">
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4 text-light">
+        <h1><u>Our Mission</u></h1>
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Empowering Through <span
+                        class="text-primary">Education</span></h2>
+                <p class="lead">At XCoders, our mission is to democratize coding education and make it accessible to
+                    everyone, everywhere. We strive to empower individuals by providing them with the tools, knowledge,
+                    and support they need to succeed in the rapidly evolving world of technology.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="https://images.pexels.com/photos/6803525/pexels-photo-6803525.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" class="img-fluid mx-auto" width="500" height="500">
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4 text-light">
+        <h1><u>Our Vision</u></h1>
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Lifelong Learning for <span
+                        class="text-primary">All</span></h2>
+                <p class="lead">Our vision at XCoders is to create a world where coding is a universal language,
+                    unlocking limitless possibilities for innovation and growth. We aspire to be the leading global
+                    platform for coding education, where individuals from all walks of life can connect, learn, and
+                    create.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="https://images.pexels.com/photos/5952651/pexels-photo-5952651.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" class="img-fluid mx-auto" width="500" height="500">
+            </div>
+        </div>
+    </div>
+
+    <div class="pb-2 border-bottom"></div>
+
+    <!-- Contact -->
+    <div class="container mb-5" id="contact">
+        <div class="container d-flex flex-column justify-content-center align-items-center my-4 text-light">
+            <h2><u>Contact Us</u></h2>
+            <form>
+                <fieldset>
+                    <legend class="mb-3 text-center">Have any question or suggestions? Feel free to write them down
+                        below.</legend>
+                    <div class="mb-3">
+                        <label for="disabledTextInput" class="form-label">Email address:</label>
+                        <input type="text" id="disabledTextInput" class="form-control" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="disabledSelect" class="form-label">Select your Query: </label>
+                        <select id="disabledSelect" class="form-select bg-secondary text-light ml-1">
+                            <option>Course Inquiry</option>
+                            <option>Content Suggestion</option>
+                            <option>Requests</option>
+                            <option>Others</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Elaborate your Concern:</label>
+                        <textarea class="form-control" name="" id="" rows="3" placeholder="Write here"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="d-flex justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="mr-2"><a class="text-body-secondary" data-bs-toggle="tooltip" title="Twitter" href="#"><img
+                            src="https://cdn-icons-png.flaticon.com/128/3670/3670151.png" height="24" width="24"
+                            alt="Twitter"></a></li>
+                <li class="mr-2"><a class="text-body-secondary" data-bs-toggle="tooltip" title="Facebook" href="#"><img
+                            src="https://cdn-icons-png.flaticon.com/128/145/145802.png" height="24" width="24"
+                            alt="Facebook"></a></li>
+                <li class="mr-2"><a class="text-body-secondary" data-bs-toggle="tooltip" title="Instagram" href="#"><img
+                            src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" height="24" width="24"
+                            alt="Instagram"></a></li>
+            </ul>
+        </footer>
+    </div>
+
+   <script>
+    // Tool-Tip Script
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+   </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
