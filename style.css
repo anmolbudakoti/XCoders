@@ -24,6 +24,16 @@ body {
     max-width: fit-content;
 }
 
+@media (max-width: 370px){
+    .jumbotron-content{
+        top: 50%;
+        margin-left: 25px;
+    }
+    .jumbotron-content h1{
+        font-size: 60px;
+    }
+}
+
 footer {
     color: white;
 }
