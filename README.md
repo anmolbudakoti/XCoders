@@ -29,5 +29,5 @@ XCoders is a modern, responsive website created to help coders at all levels enh
 
 ## **Contact**
 For any questions or feedback, feel free to reach out:
-- **Anmol BUdakoti**: [anmolbudakoti123@gmail.com](mailto:anmolbudakoti123@gmail.com)
+- **Anmol Budakoti**: [anmolbudakoti123@gmail.com](mailto:anmolbudakoti123@gmail.com)
 - **GitHub**: [https://github.com/anmolbudakoti](https://github.com/anmolbudakoti)
